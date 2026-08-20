@@ -9,6 +9,10 @@ Desarrollo de un workflow de automatización en **n8n** diseñado para procesar,
 ## 📌 Descripción del Proyecto
 El pipeline obtiene información de pedidos a través de peticiones HTTP, transforma y filtra los datos según su estado, calcula métricas clave por pedido y genera resúmenes agregados por región para alimentar endpoints externos de reportes.
 
+Desarrollo de un workflow de automatización en n8n para procesar y analizar datos de ventas. El ejercicio se basó en la construcción de un pipeline que obtiene información mediante una API, transforma y separa los datos, calcula totales por pedido y filtra las órdenes completadas.
+
+A partir de los pedidos entregados, se generaron resúmenes por región utilizando operaciones de suma, conteo y promedio. Luego, los datos fueron transformados y agrupados para enviarlos a distintos endpoints mediante HTTP Requests, preparando la información para la generación y validación de reportes.
+
 ### 🔄 Flujo de Trabajo (Step-by-Step):
 1. **Ingesta de Datos:** Consumo de información de ventas mediante peticiones HTTP a una REST API.
 2. **Transformación & Filtrado:** Separación de datos, cálculo de totales por pedido y filtrado exclusivo de órdenes completadas.
