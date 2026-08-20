@@ -24,9 +24,3 @@ El pipeline obtiene información de pedidos a través de peticiones HTTP, transf
 * **Lógica de Negocio:** Conditional Logic, Branching, Filtering
 
 ---
-
-## 🚀 Cómo importar este flujo en tu n8n
-1. Descarga el archivo [`sales-data-pipeline.json`](./sales-data-pipeline.json) de este repositorio.
-2. En tu instancia de n8n, crea un nuevo flujo.
-3. Haz clic en el menú superior derecho y selecciona **Import from File**.
-4. Selecciona el archivo `.json` cargado para importar todos los nodos y lógica del flujo.
